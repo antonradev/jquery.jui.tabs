@@ -1,0 +1,37 @@
+{
+    "name": "jquery.jui.tabs",
+    "title": "jQuery JUI Tabs",
+    "description": "Creates clickable tabbed content from a list and div elements",
+    "keywords": [
+        "tabs"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Anton Radev",
+        "email": "anton.radev@gmail.com",
+        "url": "https://github.com/antonradev"
+    },
+    "maintainers": [
+    {
+        "name": "Anton Radev",
+        "email": "anton.radev@gmail.com",
+        "url": "http://antonradev.com"
+    }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "LICENSE.txt"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">1"
+    },
+    "bugs": "https://github.com/antonradev/jquery.jui.tabs/issues",
+    "homepage": "http://jui.uxpd.net/tabs.html",
+    "docs": "https://github.com/antonradev/jquery.jui.tabs",
+    "download": "https://github.com/antonradev/jquery.jui.tabs",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}

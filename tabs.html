@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery JUI Tabs Plugin</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" media="all" href="css/main.css">
+        <link rel="stylesheet" type="text/css" media="all" href="css/jui.tabs.css">
+    </head>
+
+
+
+    <body>
+
+
+        <h2 class="jui-tabs-demo-heading">jQuery JUI Tabs - Demo page</h2>
+
+
+        <div class="jui-tabs-container" id="myJUITabs">
+            <ul>
+                <li class="active"><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>How to use</a></li>
+                <li><a>Contacts</a></li>
+            </ul>
+            <div class="jui-tabs">
+                <div class="jui-tab active">
+                    JUI Tabs is very small and simple but effective
+                    jQuery plugin that provides tabbed content for the modern
+                    web pages.
+                    <p>
+                        It is part of the JUI Collection plugins. Any of them
+                        is absolutely individual and can be used separately
+                        without any dependences from each other.
+                    </p>
+                </div>
+                <div class="jui-tab">
+                    JUI Tabs is only few lines of jQuery code
+                    but it works perfectly.
+                    The tabbed navigation can have unlimited tabs and they
+                    don't need any id or href HTML attributes.
+                </div>
+                <div class="jui-tab">
+                    Here is the HTML structure:
+                    <pre>
+        &lt;div class="jui-tabs-container" id="tabsOne"&gt;
+            &lt;ul&gt;
+                &lt;li class="active"&gt;&lt;a&gt;Tab 1&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a&gt;Tab 2&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a&gt;Tab 3&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;div class="jui-tabs"&gt;
+                &lt;div class="jui-tab active"&gt;
+                    Content of the tab
+                    Content of the tab
+                &lt;/div&gt;
+                &lt;div class="jui-tab"&gt;
+                    Content of the tab
+                    Content of the tab
+                &lt;/div&gt;
+                &lt;div class="jui-tab"&gt;
+                    Content of the tab
+                    Content of the tab
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+                    </pre>
+                    Initialize the plugin with a selector:
+                    <p>
+                        $(someSelector).juitabs();
+                    </p>
+                </div>
+                <div class="jui-tab">
+                    Author: Anton Radev
+                    <br><br>
+                    E-mail: anton.radev@gmail.com
+                    <br><br>
+                    Website: <a href="http://antonradev.com" target="_blank">antonradev.com</a>
+                    <br><br>
+                    Linkedin: <a href="http://www.linkedin.com/in/antonradev" target="_blank">www.linkedin.com/in/antonradev</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.jui.tabs.js"></script>
+        <script type="text/javascript">
+            $("#myJUITabs").juitabs();
+        </script>
+    </body>
+</html>

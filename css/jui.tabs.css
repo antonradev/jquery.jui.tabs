@@ -1,0 +1,38 @@
+.jui-tabs-container {
+    margin: 40px auto;
+    width: 700px;
+}
+.jui-tabs-container ul {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #dedede;
+}
+.jui-tabs-container ul li {
+    float: left;
+    list-style: none;
+}
+.jui-tabs-container ul li.active {
+
+}
+.jui-tabs-container ul li a {
+    padding: 15px 20px;
+    font-size: .8em;
+    display: inline-block;
+    cursor: pointer;
+}
+.jui-tabs-container ul li.active a {
+    background-color: #888;
+    color: #fff;
+}
+.jui-tabs {
+
+}
+.jui-tabs .jui-tab {
+    padding: 20px;
+    display: none;
+    background-color: #fff;
+}
+.jui-tabs .jui-tab.active {
+    display: block;
+}
