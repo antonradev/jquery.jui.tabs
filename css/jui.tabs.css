@@ -24,6 +24,21 @@
 .jui-tabs-container ul li.active a {
     background-color: #888;
     color: #fff;
+    -webkit-animation: juiLinkTabFade .7s;
+    -moz-animation: juiLinkTabFade .7s;
+    animation: juiLinkTabFade .7s;
+}
+@-moz-keyframes juiLinkTabFade {
+    from { background-color: #dedede; }
+to { background-color: #888 }
+}
+@-webkit-keyframes juiLinkTabFade {
+    from { background-color: #dedede; }
+to { background-color: #888 }
+}
+@keyframes juiLinkTabFade {
+    from { background-color: #dedede; }
+to { background-color: #888 }
 }
 .jui-tabs {
 
@@ -32,7 +47,23 @@
     padding: 20px;
     display: none;
     background-color: #fff;
+    -webkit-animation: juiTabFade .7s;
+    -moz-animation: juiTabFade .7s;
+    animation: juiTabFade .7s;
 }
+@-moz-keyframes juiTabFade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes juiTabFade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes juiTabFade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+
 .jui-tabs .jui-tab.active {
     display: block;
 }
